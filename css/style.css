@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	border-bottom: 2px solid #EEF0F3;
+	padding: 10px 0;
+}
+.container {
+	overflow: hidden;
+	width: 90%;
+	/*border: solid 1px;*/
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 10%;
+}
+.logo a{
+
+}
+.logo a img{
+width: 100%;
+}
+
+.menue {
+	float: right;
+	width: 40%;
+}
+.menue ul{
+	list-style: none;
+	float: right;
+}
+.menue ul li{
+	float: left;
+}
+.menue ul li a{
+	text-decoration: none;
+    margin: 0px 15px;
+    display: inline-block;
+    font-size: 18px;
+    color: #0F2656;
+    text-transform: capitalize;
+}
+.menue ul li a:hover{
+	color: #008AFF;
+}
+.menue ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    padding: 50px 0;
+}
+.container2{
+	width: 70%;
+	margin: 0 auto;
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	font-size: 60px;
+    margin: 0 90px;
+    color: #071F51;
+    line-height: 70px;
+}
+.b_content h1 span{
+	    color: #008AFF;
+}
+.b_content p{
+	font-size: 20px;
+    margin: 15px 35px 30px;
+    color: #071F51;
+    line-height: 25px;
+}
+.b_img{
+	width: 60%;
+    margin: 0 auto;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*success start*/
+/*success end*/
+
+.success{
+	/*border: 1px solid red;*/
+	padding: 50px 0;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	float: left;
+    width: 40%;
+    text-align: right;
+    padding: 20px 20px 10px 30px;
+}
+.s_left h2{
+	font-size: 50px;
+    margin: 0;
+    color: #F15767;
+}
+.s_left p{
+	font-size: 19px;
+    line-height: 25px;
+    color: #0F2656;
+    margin: 10px 0 20px;
+}
+.s_right{
+	float: right;
+    width: 51%;
+    padding: 10px 20px 10px 10px;
+}
+.s_right h1{
+	font-size: 60px;
+    line-height: 65px;
+    color: #0F2656;
+    margin: 0;
+}
+/*creativity start*/
+.creativity{
+	
+	padding: 50px 0;
+}
+.c_content{
+	
+	overflow: hidden;
+}
+.pink{
+	 background-color: #FDEBED;
+}
+.blue{
+	 background-color: #EBF9F4;
+}
+.red{
+	 background-color: #FFF7E8;
+}
+.c_single{
+	float: left;
+	width: 29%;
+    padding: 20px 1.15% 40px;
+    
+    margin-right: 3%;
+}
+.c_single:last-child{
+	margin-right: 0;
+}
+.c-img{
+
+}
+.c_img img{
+	    width: 100%;
+}
+.c_single h2{
+
+}
+.c_single p{
+
+}
+/*creativity end*/
+
+footer{
+	background-color: #008AFF;
+	padding: 40px 0;
+}
+.contain{
+	text-align: center;
+	/*color: #FFFFFF;*/
+	color: #9EC7FF;
+}
+.contain p{
+	margin: 0;
+}
+.white{
+	color: #FFFFFF;
+}
